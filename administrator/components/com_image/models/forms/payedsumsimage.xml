@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+  <fieldset>
+    <field name="id" type="text" readonly="true" class="readonly" default="0" description="JGLOBAL_FIELD_ID_DESC"/>
+    <field name="projectname" label="COM_IMAGE_FORM_LBL_PAYEDSUMSIMAGE_PROJECTNAME" description="COM_IMAGE_FORM_DESC_PAYEDSUMSIMAGE_PROJECTNAME" hidden="true" hint="COM_IMAGE_FORM_LBL_PAYEDSUMSIMAGE_PROJECTNAME"/>
+    <field name="summa" label="COM_IMAGE_FORM_LBL_PAYEDSUMSIMAGE_SUMMA" description="COM_IMAGE_FORM_DESC_PAYEDSUMSIMAGE_SUMMA" hidden="true" hint="COM_IMAGE_FORM_LBL_PAYEDSUMSIMAGE_SUMMA"/>
+    <field name="mediamanager" directory="" type="media" label="COM_IMAGE_FORM_LBL_PAYEDSUMSIMAGE_MEDIAMANAGER" description="COM_IMAGE_FORM_DESC_PAYEDSUMSIMAGE_MEDIAMANAGER" hint="COM_IMAGE_FORM_LBL_PAYEDSUMSIMAGE_MEDIAMANAGER"/>
+    <field name="imagelist" type="imagelist" label="COM_IMAGE_FORM_LBL_PAYEDSUMSIMAGE_IMAGELIST" description="COM_IMAGE_FORM_DESC_PAYEDSUMSIMAGE_IMAGELIST" hint="COM_IMAGE_FORM_LBL_PAYEDSUMSIMAGE_IMAGELIST"/>
+    <field name="created_by" type="createdby" default="0" label="COM_IMAGE_FORM_LBL_PAYEDSUMSIMAGE_CREATED_BY" description="COM_IMAGE_FORM_DESC_PAYEDSUMSIMAGE_CREATED_BY" hint="COM_IMAGE_FORM_LBL_PAYEDSUMSIMAGE_CREATED_BY"/>
+    <field name="version_note" type="text" label="JGLOBAL_FIELD_VERSION_NOTE_LABEL" description="JGLOBAL_FIELD_VERSION_NOTE_DESC" class="inputbox" size="45" labelclass="control-label"/>
+  </fieldset>
+</form>

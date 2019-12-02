@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+  <fieldset>
+    <field name="id" type="text" readonly="true" class="readonly" default="0" description="JGLOBAL_FIELD_ID_DESC"/>
+    <field name="projectname" label="COM_IMAGE_FORM_LBL_PAYEDSUM_PROJECTNAME" description="COM_IMAGE_FORM_DESC_PAYEDSUM_PROJECTNAME" hidden="true" hint="COM_IMAGE_FORM_LBL_PAYEDSUM_PROJECTNAME"/>
+    <field name="summa" label="COM_IMAGE_FORM_LBL_PAYEDSUM_SUMMA" description="COM_IMAGE_FORM_DESC_PAYEDSUM_SUMMA" hidden="true" hint="COM_IMAGE_FORM_LBL_PAYEDSUM_SUMMA"/>
+    <field name="mediamanager" directory="" type="media" label="COM_IMAGE_FORM_LBL_PAYEDSUM_MEDIAMANAGER" description="COM_IMAGE_FORM_DESC_PAYEDSUM_MEDIAMANAGER" hint="COM_IMAGE_FORM_LBL_PAYEDSUM_MEDIAMANAGER"/>
+    <field name="imagelist" type="imagelist" label="COM_IMAGE_FORM_LBL_PAYEDSUM_IMAGELIST" description="COM_IMAGE_FORM_DESC_PAYEDSUM_IMAGELIST" hint="COM_IMAGE_FORM_LBL_PAYEDSUM_IMAGELIST"/>
+    <field name="version_note" type="text" label="JGLOBAL_FIELD_VERSION_NOTE_LABEL" description="JGLOBAL_FIELD_VERSION_NOTE_DESC" class="inputbox" size="45" labelclass="control-label"/>
+  </fieldset>
+</form>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site">
+    <name>Test Module</name>
+    <author>Ruslan Kadirov</author>
+    <version>1.0.0</version>
+    <description>mod_featured_project_on_main_page</description>
+    <files>
+        <filename>mod_featured_project_on_main_page.xml</filename>
+        <filename module="mod_featured_project_on_main_page">mod_featured_project_on_main_page.php</filename>
+    </files>
+    <config>
+    </config>
+</extension>
