@@ -37,7 +37,7 @@ class JConfig {
 	public $sendmail = '/usr/sbin/sendmail';
 	public $smtpauth = '1';
 	public $smtpuser = 'ruslan9832@mail.ru';
-	public $smtppass = 'navdar9832nargiza';
+	public $smtppass = '';
 	public $smtphost = 'smtp.mail.ru';
 	public $smtpsecure = 'ssl';
 	public $smtpport = '465';
