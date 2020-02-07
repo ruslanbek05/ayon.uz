@@ -27,7 +27,8 @@ $query = $db->getQuery(true);
 
 // Select all records from the user profile table where key begins with "custom.".
 // Order it by the ordering field.
-$query->select($db->quoteName(array('*')));
+//$query->select($db->quoteName(array('*')));
+$query->select($db->quoteName(array('id', 'loyiha_qiymati', 'tuplangan_mablag', 'mediamanager','name')));
 $query->from($db->quoteName('#__bp_bizplans'));
 $query->where($db->quoteName('feautured_0_255') . ' > 0');
 $query->limit('9');
