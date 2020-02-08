@@ -202,7 +202,7 @@ $closing_end_li_is_open = 0;
 
 	
 <nav class="navbar navbar-expand-md navbar-dark bg-dark top">
- <a class="navbar-brand" href="http://www.ayon.uz">Ayon.uz</a>
+ <a class="navbar-brand" href="https://www.ayon.uz">Ayon.uz</a>
   <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -281,7 +281,7 @@ else
 <?php }
 ?>
 <li class="nav-item">
-    <a href="https://t.me/ayon_uz"><img src="http://www.ayon.uz/images/t_logo40.png" alt="telegram" width="40" height="40"></a>
+    <a href="https://t.me/ayon_uz"><img src="https://www.ayon.uz/images/t_logo40.png" alt="telegram" width="40" height="40"></a>
 </li>
 </ul>
 </div>

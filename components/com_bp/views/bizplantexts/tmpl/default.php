@@ -181,7 +181,7 @@ $image_of_biznes_plan=$row['mediamanager'];
 
 ?>
 <div class="media">
-  <img src="http://www.ayon.uz/<?php echo $image_of_biznes_plan; ?>" class="mr-3" alt="..." height="auto" width="96px">
+  <img src="https://www.ayon.uz/<?php echo $image_of_biznes_plan; ?>" class="mr-3" alt="..." height="auto" width="96px">
   <div class="media-body">
     <h5 class="mt-0"><?php echo $project_name; ?></h5>
 <?php if($loyihaga_pul_toplash_ochilmagan==1){ ?><div class="progress">
