@@ -1,10 +1,6 @@
 <?php
 require_once("conn.php");
 
-// Create connection
-$conn = new mysqli($HostName, $HostUser, $HostPass, $DatabaseName);
-$conn->set_charset("utf8");
-
 
 $request_body  = file_get_contents('php://input');
 $request = json_decode($request_body, true);
