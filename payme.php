@@ -1,5 +1,17 @@
 <?php
-require_once("conn.php");
+require_once("../ayon.uz_protected/conn.php");
+
+//echo $HostUser;die;
+
+// Create connection
+$conn = new mysqli($HostName, $HostUser, $HostPass, $DatabaseName);
+$conn->set_charset("utf8");
+
+/*if ($conn){
+	echo "connection success";
+}else{
+	echo "connection not success";
+}*/
 
 
 $request_body  = file_get_contents('php://input');
