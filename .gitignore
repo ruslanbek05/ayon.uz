@@ -1,3 +1,8 @@
+pic_ture/*
+images/*
+administrator/components/com_akeeba/*
+administrator/components/com_akeeba/backup/akeeba.log
+
 /.htaccess
 /administrator/cache/*
 /administrator/components/com_actionlogs/*
@@ -703,3 +708,4 @@
 /README.txt
 /robots.txt.dist
 /web.config.txt
+
